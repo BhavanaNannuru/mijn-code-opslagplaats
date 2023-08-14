@@ -1,0 +1,12 @@
+t = int(input())
+if 1<=t<=100:
+    for i in range(t):
+        l,r = map(int,input().split())
+        count=0
+        if 1<=l<=100000 and 1<=r<=100000:
+            for i in range(l,r+1):
+                k=int(str(i)[-1])
+                if k== 2 or k==3 or k==9:
+                    count+=1
+            print(count)
+
