@@ -1,0 +1,10 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    l=list(map(int,input().split()))
+    if len(l)==n:
+        count=[]
+        for i in l:
+            count.append(l.count(i))
+    print(n-max(count))
+            
