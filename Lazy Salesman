@@ -1,0 +1,17 @@
+t=int(input())
+if 1<=t<=100:
+    for a in range(t):
+        n,w = map(int,input().split())
+        l=list(map(int,input().split()))
+        if len(l)==n:
+            l.sort(reverse=True)
+            s = sum(l)
+            i=len(l)-1
+            count=0
+            while s>=w and i>=0:
+                s-=l[i]
+                i-=1
+                count+=1
+        
+        print(count-1)        
+        
