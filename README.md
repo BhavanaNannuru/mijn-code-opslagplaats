@@ -1,1 +1,1 @@
-Find my codes here.
+Within this repository, a daily cadence is maintained, wherein a singular code is uploaded, initially catering to a novice proficiency level. Admittedly, the solutions proffered may not presently exemplify the acme of excellence. However, I maintain unwavering faith that the passage of time shall facilitate iterative improvement through diligent practice, ultimately culminating in their optimization.
