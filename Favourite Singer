@@ -1,0 +1,14 @@
+n=int(input())
+l = list(map(int,input().split()))
+dic={}
+for i in l:
+    if i in dic:
+        dic[i]+=1
+    else:
+        dic[i]=1
+m = max(dic.values())
+c=0
+for i in dic:
+    if dic[i]==m:
+        c+=1
+print(c)
