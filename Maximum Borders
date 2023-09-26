@@ -1,0 +1,16 @@
+t=int(input())
+for _ in range(t):
+    n,m=map(int,input().split())
+    mat=[]
+    for i in range(n):
+        mat.append(input())
+    mc=0
+    c=0
+    for row in range(n):
+        for col in range(m):
+            if mat[row][col]=='#':
+                c+=1
+            else:
+                mc=max(mc,c)
+                c=0
+    print(max(mc,c))
